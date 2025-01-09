@@ -1,23 +1,47 @@
+html {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Tahoma, sans-serif;
-    background-color: cornsilk;
+    background-color: #fff6f0;
+    margin: 0;
+}
+
+header, main {
+    margin: 20px;
+}
+
+footer {
+    padding: 20px;
 }
 
 img {
-display: inline-block;
+display: block;
+margin-left: auto; margin-right: auto;
 }
 
-h1 {
+.img-max-600 {
+    max-width: 600px;
 
+} 
+
+h1, h2, h3 {
+color: #8b0d2b;
 }
 
 p.img-capt {
     font-size: 0.875em;
     font-style: italic;
+    text-align: center;
 }
 
 blockquote {
     border-left: 2px solid;
     border-color: #aaa;
     padding-left: 1em;
+}
+
+footer {
+    background-color: #d67176;
 }
