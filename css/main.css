@@ -3,6 +3,21 @@ body {
     background-color: cornsilk;
 }
 
+img {
+display: inline-block;
+}
+
 h1 {
 
+}
+
+p.img-capt {
+    font-size: 0.875em;
+    font-style: italic;
+}
+
+blockquote {
+    border-left: 2px solid;
+    border-color: #aaa;
+    padding-left: 1em;
 }
